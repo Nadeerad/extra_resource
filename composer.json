@@ -1,0 +1,19 @@
+{
+    "name": "nd/extra_resource",
+    "description": "Generate extra resource file and add table fields",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nadeera Samarasena",
+            "email": "nadeera.emedia@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Nadeera\\ExtraResource\\": "src/"
+        }
+    }
+}
