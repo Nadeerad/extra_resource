@@ -15,5 +15,12 @@
         "psr-4": {
             "Nadeera\\ExtraResource\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nadeera\\ExtraResource\\ExtraResourceServiceProvider"
+            ]
+        }
     }
 }
