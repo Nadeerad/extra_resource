@@ -1,15 +1,15 @@
-<?php 
+<?php
 
 namespace Nadeera\ExtraResource;
 
 use Illuminate\Support\ServiceProvider;
 use Commands\generateExtraResource;
 /**
- * 
+ *
  */
 class ExtraResourceServiceProvider extends ServiceProvider
 {
-	
+
 	public function boot()
 	{
 		$this->loadRoutesFrom(__DIR__.'/routes/web.php');
@@ -20,6 +20,7 @@ class ExtraResourceServiceProvider extends ServiceProvider
 	        ]);
 	    }
 	}
+
 
 	public function register()
 	{
